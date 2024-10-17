@@ -10,6 +10,7 @@ import {Badge} from 'antd'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [search, setSearch] = useContext(SearchContext);
 
 
